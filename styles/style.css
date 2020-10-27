@@ -92,23 +92,27 @@ figcaption span {
   color: #888888;
 }
 
-.author {
-  display: flex;
-  margin-top: 50px;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
+.small-container {
+  width: 40%;
+  margin: 50px auto;
 }
 
-.author-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 30%;
-  height: 80px;
-  
-}
-
-.author-container .author-info {
+.author-info {
   display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: end;
+  background-color: red;
+}
+
+.icons {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.author-name {
+  margin-bottom: 30px;
+  font-weight: bold;
 }
