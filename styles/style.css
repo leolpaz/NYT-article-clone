@@ -12,7 +12,12 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  margin: 5px 20px;
+  padding: 5px 20px;
+  border-bottom: 1px solid #E2E2E2;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background: white;
 }
 
 header .nav-start {
@@ -21,10 +26,30 @@ header .nav-start {
   justify-content: space-between;
 }
 
+header a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
 header .logo {
   justify-self: center;
 }
 
 header .btns {
   justify-self: end;
+}
+
+.btn {
+  background: #577c95;
+  color: white;
+  padding: 8px 8px 5px 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+main {
+  margin-top: 50px;
 }
