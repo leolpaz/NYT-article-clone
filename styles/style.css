@@ -18,6 +18,7 @@ header {
   position: fixed;
   top: 0;
   background: white;
+  z-index: 100;
 }
 
 header .nav-start {
@@ -60,6 +61,15 @@ main {
   margin: 0 auto;
 }
 
+.small-container {
+  width: 40%;
+  margin: 50px auto;
+}
+
+.medium-container {
+  width: 50%;
+  margin: 0 auto;
+}
 main .tittle {
   display: flex;
   justify-content: center;
@@ -93,10 +103,6 @@ figcaption span {
   color: #888888;
 }
 
-.small-container {
-  width: 40%;
-  margin: 50px auto;
-}
 
 article .author-info {
   display: grid;
@@ -197,4 +203,8 @@ aside a:hover {
 
 aside hr {
   border-top: 1px solid #E2E2E2;
+}
+
+.theory img {
+  width: 100%;
 }
