@@ -97,14 +97,13 @@ figcaption span {
   margin: 50px auto;
 }
 
-.author-info {
+article .author-info {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: end;
-  background-color: red;
 }
 
-.icons {
+article .icons {
   justify-self: end;
   display: flex;
   align-items: center;
@@ -112,7 +111,23 @@ figcaption span {
   width: 180px;
 }
 
-.author-name {
+article .author-name {
   margin-bottom: 30px;
   font-weight: bold;
+}
+
+article .icons .rounded {
+  border: 1px solid #eee;
+  background-color: #eee;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.icons > *{
+  margin: 3px;
+}
+
+article .icons .rounded:hover {
+  background-color: white;
+  cursor: pointer;
 }
