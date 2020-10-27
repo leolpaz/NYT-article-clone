@@ -93,8 +93,22 @@ figcaption span {
 }
 
 .author {
-  margin: auto;
+  display: flex;
   margin-top: 50px;
-
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
+.author-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  height: 80px;
+  
+}
+
+.author-container .author-info {
+  display: grid;
+}
