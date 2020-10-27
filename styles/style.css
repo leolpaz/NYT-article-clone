@@ -8,24 +8,23 @@ html {
   box-sizing: inherit;
 }
 
-nav {
-  display: block;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-top: 1%;
-}
-
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
+  margin: 5px 20px;
 }
 
-.nav-start {
+header .nav-start {
   display: flex;
+  width: 60%;
   justify-content: space-between;
-  width: 12%;
 }
 
-.logo {
-  flex: 1
+header .logo {
+  justify-self: center;
+}
+
+header .btns {
+  justify-self: end;
 }
