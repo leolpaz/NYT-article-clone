@@ -93,12 +93,12 @@ figure img {
   margin: 10px 0;
 }
 
-figcaption {
+.image figcaption {
   width: 100%;
   padding-right: 25%;
 }
 
-figcaption span {
+.image figcaption span {
   font-size: 13.5px;
   color: #888888;
 }
@@ -207,4 +207,22 @@ aside hr {
 
 .theory img {
   width: 100%;
+}
+
+.theory .theory-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.theory .theory-grid img {
+  height: 120px;
+}
+
+.theory .theory-grid figure span {
+  font-weight: bold;
+}
+
+.theory .theory-grid figure figcaption {
+  font-size: 15px;  
 }
