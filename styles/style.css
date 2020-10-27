@@ -158,16 +158,39 @@ article .content .unlock-more {
 article .content a {
   text-decoration: none;
   color: #326891;
+  font-weight: bold;
 }
 
 article .content hr {
   width: 60px;
 }
 
-h4 {
+h2 {
   font-weight: bold;
+  font-size: 16px;
 }
 
-.editor-pick {
-  display: grid;
+aside {
+  width: 250px;
+}
+
+aside img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+aside a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+aside hr {
+  border-top: 1px solid #E2E2E2;
 }
