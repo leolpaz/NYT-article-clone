@@ -52,6 +52,7 @@ header .btns {
 
 main {
   margin-top: 100px;
+  position: relative;
 }
 
 .container {
@@ -172,6 +173,9 @@ h2 {
 
 aside {
   width: 250px;
+  position: absolute;
+  right: 120px;
+  top: 50%;
 }
 
 aside img {
