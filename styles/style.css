@@ -81,6 +81,11 @@ header a {
   font-weight: bold;
 }
 
+footer a {
+  text-decoration: none;
+  color: #373737;
+}
+
 header a:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -207,6 +212,19 @@ article .article-end p {
 
 article .article-end p a {
   color: #333;
+}
+
+.suggestions .most-popular p {
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 15px 0;
+  border-top: 1px solid #efefef;
+}
+
+footer .last li img + a {
+  font-weight: bold;
+  margin-left: 8px;
+  font-size: 18px;
 }
 
 article .article-end p a:hover {
@@ -342,13 +360,6 @@ aside a:hover {
   padding: 10px 0;
 }
 
-.suggestions .most-popular p {
-  font-size: 20px;
-  line-height: 1.2;
-  padding: 15px 0;
-  border-top: 1px solid #efefef;
-}
-
 .suggestions .most-popular p a {
   color: #121212;
   text-decoration: none;
@@ -371,18 +382,13 @@ footer .border {
   width: 100%;
 }
 
-footer a {
-  text-decoration: none;
-  color: #373737;
-}
-
 footer a:hover {
   text-decoration: underline;
 }
 
 footer .logo-section a {
   font-size: 12px;
-  color: #6eacdA;
+  color: #6eacda;
 }
 
 footer .quick-links {
@@ -411,12 +417,6 @@ footer .last li {
   display: flex;
   align-items: center;
   padding: 5px 0;
-}
-
-footer .last li img + a {
-  font-weight: bold;
-  margin-left: 8px;
-  font-size: 18px;
 }
 
 footer .last .icon-links {
