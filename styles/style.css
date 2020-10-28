@@ -9,7 +9,10 @@ html {
 }
 
 /***  Typography  ***/
-h1, h2, h3, h4 {
+h1, 
+h2,
+h3,
+h4 {
   font-weight: bold;
 }
 
@@ -28,7 +31,7 @@ h4 {
   font-size: 20px;
 }
 
- article p {
+article p {
   margin-bottom: 10px;
   margin-top: 20px;
   font-size: 20px;
@@ -84,6 +87,14 @@ header a {
 footer a {
   text-decoration: none;
   color: #373737;
+}
+
+aside a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 header a:hover {
@@ -210,6 +221,21 @@ article .article-end p {
   font-size: 11px;
 }
 
+aside a:hover {
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
 article .article-end p a {
   color: #333;
 }
@@ -242,14 +268,6 @@ article .article-end .btns-icons {
   align-items: center;
 }
 
-aside a {
-  text-decoration: none;
-  color: #333;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
 aside hr {
   border-top: 1px solid #e2e2e2;
 }
@@ -264,10 +282,6 @@ aside {
 aside img {
   width: 100px;
   margin-right: 10px;
-}
-
-aside a:hover {
-  text-decoration: underline;
 }
 
 .theory img {
@@ -321,11 +335,13 @@ aside a:hover {
   padding-top: 10px;
 }
 
-.suggestions .suggestions-left, .editors-pick {
+.suggestions .suggestions-left,
+.editors-pick {
   border-top: 1px solid #373737;
 }
 
-.suggestions .suggestions-left .more, .editor-grid{
+.suggestions .suggestions-left .more,
+.editor-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -352,7 +368,8 @@ aside a:hover {
 .suggestions img {
   width: 100%;
 }
-.suggestions .most-popular{
+
+.suggestions .most-popular {
   border-top: 1px solid black;
 }
 
@@ -369,21 +386,10 @@ footer {
   margin: 0 10%;
 }
 
-footer .logo-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px 0;
-}
-
 footer .border {
   border-top: 2px solid #e9e9e9;
   border-bottom: 1px solid #e9e9e9;
   width: 100%;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 footer .logo-section a {
