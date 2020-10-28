@@ -378,6 +378,8 @@ footer .logo-section a {
 
 footer .quick-links {
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 footer .quick-links nav {
