@@ -106,6 +106,10 @@ header .logo {
   justify-self: center;
 }
 
+header .logo a:hover {
+  cursor: pointer;
+}
+
 header .btns {
   justify-self: end;
 }
@@ -225,10 +229,7 @@ article .article-end p {
   font-size: 11px;
 }
 
-aside a:hover {
-  text-decoration: underline;
-}
-
+aside a:hover,
 footer a:hover {
   text-decoration: underline;
 }
