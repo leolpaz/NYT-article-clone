@@ -286,3 +286,56 @@ aside a:hover {
   font-weight: normal;
 }
 
+.suggestions {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.suggestions .suggestions-left, .editors-pick {
+  border-top: 1px solid #373737;
+}
+
+.suggestions .suggestions-left p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.suggestions .suggestions-left .more {
+
+}
+
+.suggestions .suggestions-left .more, .editor-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.suggestions .suggestions-left figcaption span {
+  display: block;
+  text-align: right;
+  font-size: 10.5px;
+  color: #999;
+}
+
+.suggestions .suggestions-left figcaption p {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.suggestions .suggestions-left figcaption time {
+  color: #999;
+  font-size: 13px;
+}
+
+.suggestions img {
+  width: 100%;
+}
+
+.most-popular {
+  background-color: red;
+}
