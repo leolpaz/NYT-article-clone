@@ -397,3 +397,29 @@ footer .last {
   border-left: 1px solid #efefef;
   padding-left: 10px;
 }
+
+footer .last li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+footer .last li img + a {
+  font-weight: bold;
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+footer .last .icon-links {
+  margin: 10px 0 30px;
+}
+
+footer .last .middle-links {
+  border-bottom: 1px solid #efefef;
+  
+}
+
+footer .last li {
+  padding: 2px 0;
+  font-size: 14px;
+}
