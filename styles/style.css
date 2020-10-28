@@ -8,6 +8,35 @@ html {
   box-sizing: inherit;
 }
 
+/***  Typography  ***/
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Domine', Helvetica, serif;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/*** Containers ***/
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.small-container {
+  width: 40%;
+  margin: 50px auto;
+}
+
+.medium-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*** Header ***/
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -51,35 +80,16 @@ header .btns {
   font-weight: bold;
 }
 
+/*** Main ***/
+
 main {
   margin-top: 100px;
   position: relative;
 }
 
-.container {
-  width: 60%;
-  margin: 0 auto;
-}
-
-.small-container {
-  width: 40%;
-  margin: 50px auto;
-}
-
-.medium-container {
-  width: 50%;
-  margin: 0 auto;
-}
-
 main .tittle {
   display: flex;
   justify-content: center;
-}
-
-h1 {
-  font-size: 35px;
-  font-weight: bold;
-  font-family: 'Domine', Helvetica, serif;
 }
 
 figure {
@@ -182,11 +192,6 @@ aside hr {
 
 article .content hr {
   width: 60px;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 16px;
 }
 
 aside {
