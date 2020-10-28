@@ -23,9 +23,14 @@ h2 {
   margin: 10px 0;
 }
 
+h4 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
  article p {
   margin-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -176,22 +181,10 @@ article .content .unlock-more {
   font-weight: bold;
 }
 
-aside a {
-  text-decoration: none;
-  color: #333;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
 article .content a {
   text-decoration: none;
   color: #326891;
   font-weight: bold;
-}
-
-aside hr {
-  border-top: 1px solid #e2e2e2;
 }
 
 article .content hr {
@@ -201,6 +194,41 @@ article .content hr {
 article iframe {
   width: 100%;
   margin-bottom: 10px;
+}
+
+article .article-end p {
+  font-size: 11px;
+}
+
+article .article-end p a {
+  color: #333;
+}
+
+article .article-end p a:hover {
+  text-decoration: none;
+}
+
+article .article-end .btn {
+  padding: 12px 120px;
+  margin-top: 10px;
+}
+
+article .article-end .btns-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+aside hr {
+  border-top: 1px solid #e2e2e2;
 }
 
 aside {
