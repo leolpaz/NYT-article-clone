@@ -344,3 +344,29 @@ aside a:hover {
   padding: 15px 0;
   border-top: 1px solid #efefef;
 }
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer .logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .border {
+  border-top: 2px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+  color: #373737;
+}
+
+footer .logo-section a {
+  font-size: 12px;
+}
