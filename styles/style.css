@@ -374,7 +374,8 @@ aside img {
   padding-bottom: 10px;
 }
 
-.suggestions .suggestions-left figcaption time {
+.suggestions .suggestions-left figcaption .time {
+  text-align: left;
   color: #999;
   font-size: 13px;
 }
