@@ -346,8 +346,7 @@ aside a:hover {
 }
 
 footer {
-  width: 90%;
-  margin: 0 auto;
+  margin: 0 10%;
 }
 
 footer .logo-section {
@@ -388,4 +387,9 @@ footer .quick-links nav {
 
 footer li {
   margin: 7px 0;
+}
+
+footer .last {
+  border-left: 1px solid #efefef;
+  padding-left: 10px;
 }
