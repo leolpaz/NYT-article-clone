@@ -12,7 +12,7 @@ We made a clone of a NYT article page, on this page we fit all the text in the o
 
 ## Live Demo
 
-https://raw.githack.com/leolpaz/NYT-article-clone/Features/index.html
+- [Visit Page](https://raw.githack.com/leolpaz/NYT-article-clone/Features/index.html)
 
 ## Built With
 
