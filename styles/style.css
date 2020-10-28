@@ -340,9 +340,13 @@ aside a:hover {
 .suggestions .most-popular p {
   font-size: 20px;
   line-height: 1.2;
-  color: #121212;
   padding: 15px 0;
   border-top: 1px solid #efefef;
+}
+
+.suggestions .most-popular p a {
+  color: #121212;
+  text-decoration: none;
 }
 
 footer {
