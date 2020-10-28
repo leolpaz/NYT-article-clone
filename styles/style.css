@@ -294,18 +294,12 @@ aside a:hover {
   margin: 0 auto;
 }
 
+.suggestions .suggestions-left h2 {
+  padding-top: 10px;
+}
+
 .suggestions .suggestions-left, .editors-pick {
   border-top: 1px solid #373737;
-}
-
-.suggestions .suggestions-left p {
-  font-size: 18px;
-  font-weight: bold;
-  padding-top: 20px;
-}
-
-.suggestions .suggestions-left .more {
-
 }
 
 .suggestions .suggestions-left .more, .editor-grid{
@@ -335,7 +329,18 @@ aside a:hover {
 .suggestions img {
   width: 100%;
 }
+.suggestions .most-popular{
+  border-top: 1px solid black;
+}
 
-.most-popular {
-  background-color: red;
+.suggestions .most-popular h2 {
+  padding: 10px 0;
+}
+
+.suggestions .most-popular p {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #121212;
+  padding: 15px 0;
+  border-top: 1px solid #efefef;
 }
