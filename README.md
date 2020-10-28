@@ -1,3 +1,5 @@
+
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Positioning and Floating Elements
@@ -37,6 +39,12 @@ https://raw.githack.com/leolpaz/NYT-article-clone/Features/index.html
 - [w3schools](https://www.w3schools.com)
 - Our standup team
 
+## Acknowledgments
+
+- [Microverse](https://www.microverse.org)
+- [w3schools](https://www.w3schools.com)
+- Our standup team
+
 ## Show your support
 <p> Give a 
   <g-emoji class="g-emoji" alias="star" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png"><img class="emoji" alt="star" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png"></g-emoji>
@@ -44,3 +52,4 @@ https://raw.githack.com/leolpaz/NYT-article-clone/Features/index.html
 
 ## License
   <p>This project is <a href="../Features/LICENSE">MIT</a> licensed.</p>
+
