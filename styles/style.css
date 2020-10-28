@@ -81,6 +81,11 @@ header a {
   font-weight: bold;
 }
 
+header a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 header .logo {
   justify-self: center;
 }
@@ -97,10 +102,10 @@ header .btns {
   border: none;
   font-size: 12px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /*** Main ***/
-
 main {
   margin-top: 100px;
   position: relative;
@@ -377,8 +382,7 @@ footer a:hover {
 
 footer .logo-section a {
   font-size: 12px;
-  color: #6eacdA
-  ;
+  color: #6eacdA;
 }
 
 footer .quick-links {
@@ -421,7 +425,6 @@ footer .last .icon-links {
 
 footer .last .middle-links {
   border-bottom: 1px solid #efefef;
-  
 }
 
 footer .last li {
