@@ -1,0 +1,450 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/***  Typography  ***/
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: 'Domine', Helvetica, serif;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+h4 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+article p {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+article a {
+  color: #326891;
+}
+
+/*** Containers ***/
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.small-container {
+  width: 40%;
+  margin: 50px auto;
+}
+
+.medium-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*** Header ***/
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  padding: 5px 20px;
+  border-bottom: 1px solid #e2e2e2;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 100;
+}
+
+header .nav-start {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: #373737;
+}
+
+aside a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+header .logo {
+  justify-self: center;
+}
+
+article .content a {
+  text-decoration: none;
+  color: #326891;
+  font-weight: bold;
+}
+
+aside a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .logo-section a {
+  font-size: 12px;
+  color: #6eacda;
+}
+
+article .article-end p a {
+  color: #333;
+}
+
+footer .last li img + a {
+  font-weight: bold;
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+header .logo a:hover {
+  cursor: pointer;
+}
+
+header .btns {
+  justify-self: end;
+}
+
+.btn {
+  background: #577c95;
+  color: white;
+  padding: 8px 8px 5px 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*** Main ***/
+main {
+  margin-top: 100px;
+  position: relative;
+}
+
+main .tittle {
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+figure img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.image figcaption {
+  width: 100%;
+  padding-right: 25%;
+}
+
+figcaption span {
+  font-size: 13.5px;
+  color: #888;
+}
+
+article .author-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: end;
+}
+
+article .icons {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+}
+
+article .author-name {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+article .icons .rounded {
+  border: 1px solid #eee;
+  background-color: #eee;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.icons > * {
+  margin: 3px;
+}
+
+article .icons .rounded:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+article .content .unlock-articles {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+article .content .unlock-more {
+  font-weight: bold;
+}
+
+aside hr {
+  border-top: 1px solid #e2e2e2;
+}
+
+article .content hr {
+  width: 60px;
+}
+
+article iframe {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+article .article-end p {
+  font-size: 11px;
+}
+
+footer .logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.suggestions .most-popular p {
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 15px 0;
+  border-top: 1px solid #efefef;
+}
+
+.suggestions .most-popular p a {
+  color: #121212;
+  text-decoration: none;
+}
+
+article .article-end p a:hover {
+  text-decoration: none;
+}
+
+article .article-end .btn {
+  padding: 12px 120px;
+  margin-top: 10px;
+}
+
+article .article-end .btns-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside {
+  width: 250px;
+  position: absolute;
+  right: 120px;
+  top: 50%;
+}
+
+aside img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.theory img {
+  width: 100%;
+}
+
+.theory .theory-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.suggestions img {
+  width: 100%;
+}
+
+.theory .theory-grid img {
+  height: 120px;
+}
+
+.theory .theory-grid figure span {
+  font-weight: bold;
+}
+
+.theory .theory-grid figure figcaption {
+  font-size: 15px;
+}
+
+.theory .author {
+  position: relative;
+}
+
+.theory .author hr {
+  width: 80px;
+  border-top: 1px solid #000;
+  position: absolute;
+  top: 0;
+}
+
+.theory .author h3 {
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+.suggestions {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.suggestions .suggestions-left h2 {
+  padding-top: 10px;
+}
+
+.suggestions .suggestions-left,
+.editors-pick {
+  border-top: 1px solid #373737;
+}
+
+.suggestions .suggestions-left .more,
+.editor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.suggestions .suggestions-left figcaption span {
+  display: block;
+  text-align: right;
+  font-size: 10.5px;
+  color: #999;
+}
+
+.suggestions .suggestions-left figcaption p {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.suggestions .suggestions-left figcaption .time {
+  text-align: left;
+  color: #999;
+  font-size: 13px;
+}
+
+.suggestions .most-popular {
+  border-top: 1px solid black;
+}
+
+.suggestions .most-popular h2 {
+  padding: 10px 0;
+}
+
+footer {
+  margin: 0 10%;
+}
+
+footer .border {
+  border-top: 2px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  width: 100%;
+}
+
+footer .quick-links {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+footer .quick-links nav {
+  margin: 10px 0;
+}
+
+footer li {
+  margin: 7px 0;
+}
+
+footer .last {
+  border-left: 1px solid #efefef;
+  padding-left: 10px;
+}
+
+footer .last li {
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
+  font-size: 14px;
+}
+
+footer .last .icon-links {
+  margin: 10px 0 20px;
+}
+
+footer .last .middle-links {
+  border-bottom: 1px solid #efefef;
+}
+
+footer .copyright li {
+  display: inline-block;
+  font-size: 12px;
+  color: #666;
+  padding: 0 8px;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
